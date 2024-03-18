@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://w.forfun.com/fetch/75/755c2b015796300f40e6a2f459ec5b56.jpeg?download=anime-one_piece-brook_one_piece-franky_one_piece-monkey_d_luffy-nami_one_piece-nico_robin-roronoa_zoro-sanji_one_piece-tony_tony_chopper-usopp_one_piece-359380.jpeg'); /* Substitua com a URL de sua imagem */
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#lista-cidades {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#lista-cidades li {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para melhor leitura */
+    padding: 20px;
+    flex: 0 1 30%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000; /* Cor do texto */
+}
+
+#lista-cidades li strong {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+#pesquisa {
+    margin-bottom: 20px;
+}
+
+#campo-pesquisa {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 84px); /* Ajuste conforme necessário */
+}
+
+#botao-pesquisar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #06182c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
